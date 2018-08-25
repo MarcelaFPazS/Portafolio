@@ -1,0 +1,17 @@
+.container{
+  display: none;
+  margin: 0%;
+}
+
+
+
+/* =================FOOTER=============0*/
+.footer{
+  background-color: rgb(37, 37, 37);
+  color: white;
+  margin-top: 15%;
+  width: 100%;;
+}
+.iconosrrss{
+  text-align: center;
+}
