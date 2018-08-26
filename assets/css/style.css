@@ -2,12 +2,15 @@
   display: none;
   margin: 0%;
 }
+/* =================BODY=============*/
+.espacio1{/*espacio entre vanegador y diapo1=*/
+  margin-top: 20%;
+}
 
 
-
-/* =================FOOTER=============0*/
+/* =================FOOTER=============*/
 .footer{
-  background-color: rgb(37, 37, 37);
+  background-color: #152C35;
   color: white;
   margin-top: 15%;
   width: 100%;;
