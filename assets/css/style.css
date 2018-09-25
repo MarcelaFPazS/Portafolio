@@ -2,12 +2,89 @@
   display: none;
   margin: 0%;
 }
+.navbar-light{
+  /*background-color: white!important;*/
+  background-image: url(../img/montaña.jpeg); 
+  background-size: cover;
+  background-position: top; 
+  width: 100%;
+}
+.background{
+  background-image:url(../img/prueba11.png); 
+  background-size: cover;
+  background-position: center; 
+  width: 100%;
+  height: 120vh;
+
+ 
+}
+
+/* =================Body arriba=============*/
+.nombre{
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 500%;
+  margin-top: 7%;
+
+}
+.cargo{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 200%;
+}
+.Textmi{
+  text-align: center;
+  padding: 3%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 120%;
+}
+.logo{
+  width: 4%;
+}
 /* =================BODY=============*/
-.espacio1{/*espacio entre vanegador y diapo1=*/
-  margin-top: 20%;
+body{
+  background-position: center;
+  background-size:cover;
 }
 
 
+.carousel-item{
+  height: 350px;
+} 
+.carousel-item img{
+  height: 350px;
+}
+.espacio1{/*espacio entre vanegador y diapo1=*/
+  margin-top: 20%;
+}
+.carousel{
+  margin: 3%;
+}
+.figure-caption{
+  margin: 3%;
+}
+.textleermas1{
+  margin: 3%;
+}
+.texto1{
+  margin-top: 6%;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 200%;
+}
+.espacios{
+  margin-top: 10%;
+  margin-bottom: 6%;
+  
+}
+.img-thumbnail{
+  padding: 2%;
+  margin: 3%;
+}
+.segunda{
+  background-image: url(assets/img/fondo-slide-1_2_0.jpg);
+ 
+}
 /* =================FOOTER=============*/
 .footer{
   background-color: #152C35;
@@ -18,3 +95,129 @@
 .iconosrrss{
   text-align: center;
 }
+.card-group{
+  background-color: black;
+}
+
+
+
+
+.hola{
+  width: 100%;
+  height: 200%;
+  background-color: aquamarine;
+}
+.chao{
+  width: 60%;
+  background-color: black;
+  align-content: center;
+  z-index: auto;
+}
+
+.hola{
+  width: 100%;
+  height: 80vh;
+  background: #999;
+}
+
+.chao{
+  width: 60%;
+  height: 40vh;
+  background-color: peru;
+  border: 2px solid rebeccapurple;
+  position: absolute;
+    left: 200px;
+    top: 400px;
+    
+}
+
+/*MEDIA QUERIES*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 425px) { 
+  .hola{
+    width: 100%;
+    height: 20vh;
+    }
+  
+  .chao{
+    width: 80%;
+    height: 40vh;
+    z-index: 1;
+    top: 100px;
+    align-content: center;
+    position: absolute;
+  }
+  
+  .logo{
+    width: 15%;
+  }
+  
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  header{
+    text-align: center;
+  }
+  .logoCarolina{
+    width: 25em;
+  }
+  .navbar-toggler{
+    margin-right: 5%;
+  }
+
+  .portfolio{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+   
+  }
+  #titlePortfolio{
+    margin-bottom: 6vh;
+  }
+
+  .contentProject{
+    margin-top: -2vh;
+  }
+
+  .contact{
+    padding: 5vh;
+  }
+  .titleContact{
+    margin-bottom: 6vh;
+  }
+  .textHeader1{
+    text-align: center;
+  }
+
+   
+
+ }
+
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1024px) { 
+  .textHeader1{
+    text-align: center;
+  }
+  header{
+    padding: 10vh;
+  }
+  .logoCarolina{
+    margin-top: 10vh;
+  }
+  .backgroundPic{
+    height: 40em;
+  }
+
+  .imgProject{
+    width:70vh;
+    height: auto;
+  }
+
+  .fab{
+    display: inline-block;
+    font-size: 8vh;
+  }
+   
+ }
