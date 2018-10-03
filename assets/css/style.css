@@ -3,8 +3,7 @@
   margin: 0%;
 }
 .navbar-light{
-  /*background-color: white!important;*/
-  background-image: url(../img/montaña.jpeg); 
+  background-color: white!important;
   background-size: cover;
   background-position: top; 
   width: 100%;
@@ -22,7 +21,8 @@
 /* =================Body arriba=============*/
 .nombre{
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+  color: white;
+  font-family: 'Oswald', sans-serif;
   font-size: 500%;
   margin-top: 7%;
 
@@ -31,15 +31,17 @@
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   font-size: 200%;
+  color: white;
 }
 .Textmi{
   text-align: center;
   padding: 3%;
   font-family: 'Open Sans', sans-serif;
   font-size: 120%;
+  color: rgb(44, 44, 44);
 }
 .logo{
-  width: 4%;
+  width: 3%;
 }
 /* =================BODY=============*/
 body{
@@ -69,8 +71,12 @@ body{
 .texto1{
   margin-top: 6%;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 200%;
+  font-family: 'Oswald', sans-serif;
+  font-size: 300%;
+}
+.galeria-proyecto{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .espacios{
   margin-top: 10%;
@@ -91,6 +97,13 @@ body{
   color: white;
   margin-top: 15%;
   width: 100%;;
+}
+.page-footer{
+  background-color: rgb(116, 116, 116);
+  margin-top: 5%;
+}
+.textcolor{
+  color: white;
 }
 .iconosrrss{
   text-align: center;
@@ -148,9 +161,7 @@ body{
     position: absolute;
   }
   
-  .logo{
-    width: 15%;
-  }
+  
   
  }
 
